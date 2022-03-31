@@ -1,0 +1,10 @@
+.toolbar {
+  background-color: black;
+  color: azure;
+  display: flex;
+  justify-content: center;
+}
+
+.toolbar span {
+  font-size: 2em;
+}
