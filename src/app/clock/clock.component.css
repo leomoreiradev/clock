@@ -9,3 +9,10 @@
   line-height: 100px;
   color: white;
 }
+
+.box-clock:hover {
+  box-shadow: 0px 0px 10px 1px black;
+  transition-duration: 0.3s;
+  font-size: 6.5em;
+  background-color: green;
+}

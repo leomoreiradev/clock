@@ -8,14 +8,17 @@ import { ToolbarComponent } from './toolbar/toolbar.component';
 import { ClockComponent } from './clock/clock.component';
 import { InfoComponent } from './info/info.component';
 import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
+import { SpinnerComponent } from './spinner/spinner.component';
 
 @NgModule({
-  declarations: [AppComponent, ToolbarComponent, ClockComponent, InfoComponent],
+  declarations: [AppComponent, ToolbarComponent, ClockComponent, InfoComponent, SpinnerComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     MatToolbarModule,
+    MatProgressSpinnerModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

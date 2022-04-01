@@ -6,9 +6,9 @@ import { Clock } from '../model/clock.model';
 })
 export class ClockService {
   clock: Clock = {
-    hour: '0',
-    minute: '0',
-    second: '0',
+    hour: '00',
+    minute: '00',
+    second: '00',
   };
 
   constructor() {}

@@ -1,0 +1,19 @@
+.container-spinner {
+  background-color: #fff;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-spinner .spinner {
+  background-color: #fff;
+}
+
+.container-spinner p {
+  margin-top: 20px;
+}

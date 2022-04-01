@@ -1,6 +1,6 @@
-import { Component, OnInit } from '@angular/core';
-import { Clock } from '../model/clock.model';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { ClockService } from '../service/clock.service';
+import { Clock } from '../model/clock.model';
 
 @Component({
   selector: 'app-clock',
@@ -8,8 +8,7 @@ import { ClockService } from '../service/clock.service';
   styleUrls: ['./clock.component.css'],
 })
 export class ClockComponent implements OnInit {
-  clock: Clock | undefined;
-
+  clock: Clock;
   constructor(public clockService: ClockService) {}
 
   ngOnInit(): void {

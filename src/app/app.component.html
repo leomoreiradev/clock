@@ -1,3 +1,8 @@
 <app-toolbar></app-toolbar>
 <app-info></app-info>
-<app-clock></app-clock>
+
+<div *ngIf="loadComponent()">
+  <app-spinner [clockSpinner]="clock.clock"></app-spinner>
+</div>
+
+<app-clock #clock></app-clock>
