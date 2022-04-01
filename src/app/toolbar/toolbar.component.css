@@ -5,6 +5,20 @@
   justify-content: center;
 }
 
-.toolbar span {
-  font-size: 2em;
+.toolbar ul {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.toolbar ul li {
+  width: auto;
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+.toolbar ul li a {
+  text-decoration: none;
+  color: gray;
 }
